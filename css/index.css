@@ -1,0 +1,49 @@
+.carousel-cont{
+    height: 400px;
+    position: relative;
+}
+.carousel{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.carousel-inner{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.carousel-item{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+@media (max-width: 992px){
+    .carousel-cont{
+        height: 300px;
+    }
+    .carousel, .carousel-cont, .carousel-inner, .carousel-item, .carousel-item img{
+        border-radius: 0px;
+    }
+
+}

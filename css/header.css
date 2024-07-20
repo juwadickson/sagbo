@@ -1,0 +1,60 @@
+.head{
+    border-bottom: .5px solid #01202b08;
+}
+.navbar-brand{
+    margin-right: 50px !important;
+}
+
+.dropdown-toggle{
+    border: 1px solid #ef5c32 !important;
+    border-radius: 4px;
+}
+.dropdown-toggle:hover{
+    background-color: #ef5c32;
+    color: white !important;
+}
+
+
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.course-icon{
+    flex: 10%;
+    padding-right: 10px;
+}
+.course-icon .bi{
+    color: #8244fd !important;
+}
+.course-item{
+    flex: 90%;
+}
+.course-item p{
+    font-size: 11px;
+}
+.call-us{
+    margin-right: 10px;
+}
+
+.btn-danger{
+    background-color: #ef5c32 !important;
+}
+.btn-danger:hover{
+    background-color: #eb491d !important;
+}
+@media (max-width: 991px){
+    
+    .dropdown-toggle{
+        border: 0 !important;
+    }
+    .dropdown-toggle:hover{
+        background-color: inherit;
+        color: #ef5c32 !important;
+    }
+    .course-item p{
+        font-size: 9px;
+    }
+}
