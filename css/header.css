@@ -3,6 +3,9 @@
 }
 .navbar-brand{
     margin-right: 50px !important;
+    font-family: "Playwrite CU", cursive !important;
+    color: #ef5c32 !important;
+    font-weight: 800;
 }
 
 .dropdown-toggle{

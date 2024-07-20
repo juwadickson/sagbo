@@ -92,6 +92,25 @@
     background-color: rgb(205, 222, 255);
     box-shadow: rgb(178, 204, 255) 0px 3px 0px;
 }
+
+
+.profile{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.card{
+    border: 1px solid #84848405 !important;
+}
+.card-body{
+    padding-top: 20px !important;
+}
+
+
+.how-it-works{
+    padding: 10px 0;
+}
 @media (max-width: 992px){
     .carousel-cont{
         height: 300px;
@@ -101,6 +120,9 @@
     }
     .inner-program-offered{
         width: 95%;
+    }
+    .inner-program-offered> h6{
+        font-size: 12px;
     }
     .program-offered{
         bottom: -230px;
@@ -119,4 +141,5 @@
     .program-offer h6{
         font-size: 12px;
     }
+    
 }
