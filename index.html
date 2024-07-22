@@ -193,7 +193,15 @@
                     </div>
                 </div>
             </div>
+            <div class="emoji-container">
+                <div class="emoji" style="left: 10%;">😊</div>
+                <div class="emoji" style="left: 30%;">🚀</div>
+                <div class="emoji" style="left: 50%;">🌟</div>
+                <div class="emoji" style="left: 70%;">🎉</div>
+                <div class="emoji" style="left: 90%;">❤️</div>
+              </div>
         </div>
+        
     </div>
     <div class="container profile">
         <div class="row profile-row">
@@ -243,7 +251,78 @@
                 <div><button type="button" class="btn btn-danger btn-aboutUs">Translate</button></div>
             </div>
         </div>
-        <div class="row slide-in">
+        <div class="row">
+            <div class="gallery">
+                <div class="item1"><img src="/images/high.webp" alt="Image 1"></div>
+                <div class="item2"><img src="https://via.placeholder.com/200x400" alt="Image 2"></div>
+                <div class="item3"><img src="https://via.placeholder.com/400x200" alt="Image 3"></div>
+                <div class="item4"><img src="images/webinar.jpg" alt="Image 4"></div>
+                <div class="item5"><img src="https://via.placeholder.com/200x300" alt="Image 5"></div>
+                <div class="item6"><img src="images/webinar.jpg" alt="Image 6"></div>
+              </div>
+        </div>
+        <div class="row why">
+            <h3>Why Monsieur Sagbo?</h3>
+            <div class="reasons">
+                <div class="reason" id="">
+                    <img src="icons/graduation.png" alt="IB Diploma" width="60" height="60">
+                    <h5>Innovative Teaching Methods</h5>
+                    <p>I employ the latest educational technologies and interactive teaching methods to make learning French fun and effective. From virtual reality experiences to gamified lessons, my class keeps students motivated and excited about their progress.</p>
+                </div>
+                <div class="reason" id="">
+                    <img src="icons/exam.png" alt="IGCSE" width="60" height="60">
+                    <h5>Expert Instruction</h5>
+                    <p>My French class is taught by a highly experienced and passionate teacher who has a proven track record of helping students achieve fluency. With over a decade of teaching experience and a deep understanding of language acquisition, I provide top-notch guidance and support.</p>
+                </div>
+                <div class="reason" id="">
+                    <img src="iconS/elearning.png" alt="learning" width="60" height="60">
+                    <h5>Personalized Learning Paths</h5>
+                    <p>Each student receives a tailored learning plan that caters to their individual needs and goals. Whether they are beginners or advanced learners, I ensure that each student progresses at their own pace with customized exercises, feedback, and support.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row short-presentation">
+            <div class="col-lg-6 col-sm-12">
+                <div class="video-thumbnail" id="videoThumbnail">
+                    <img src="images/youu.jpg" alt="Video Thumbnail">
+                    <div class="play-button">
+                    </div>
+                </div>
+                <div class="modal" id="videoModal">
+                    <div class="modal-content">
+                        <span class="close" id="closeModal">&times;</span>
+                        <iframe id="youtubeVideo" src="https://www.youtube.com/embed/wtiFx1TRCq0" title="French Conversation Practice for Beginners | Easy French Lessons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-lg-6 col-sm-12 che">
+                <h2>Check out a small presentation</h2>
+            </div>   
+            <script>
+                const videoThumbnail = document.getElementById('videoThumbnail');
+                const videoModal = document.getElementById('videoModal');
+                const closeModal = document.getElementById('closeModal');
+                const youtubeVideo = document.getElementById('youtubeVideo');
+            
+                videoThumbnail.addEventListener('click', () => {
+                    youtubeVideo.src = 'https://www.youtube.com/embed/wtiFx1TRCq0';
+                    videoModal.style.display = 'flex';
+                });
+            
+                closeModal.addEventListener('click', () => {
+                    videoModal.style.display = 'none';
+                    youtubeVideo.src = '';
+                });
+            
+                window.addEventListener('click', (event) => {
+                    if (event.target == videoModal) {
+                        videoModal.style.display = 'none';
+                        youtubeVideo.src = '';
+                    }
+                });
+            </script>
+        </div>
+        <!-- <div class="row slide-in">
             <div class="col-lg-7 col-md-6 col-sm-12 profile-info-det det2">
                 <h1>All-in-one Platform</h1>
                 <h6>Learn, practice and excel in all your exams</h6>
@@ -300,7 +379,7 @@
                 <img src="images/learning.png" class="img" alt="profile picture">
             </div>
         </div>
-        
+         -->
         <script src="js/slidein.js"></script>
     </div>
 
