@@ -16,7 +16,16 @@
     background-color: #ef5c32;
     color: white !important;
 }
-
+.nav-item{
+    margin-right: 10px;
+}
+.pages{
+    border: none !important;
+}
+.pages:hover{
+    background-color: unset !important;
+    color: unset !important;
+}
 
 .course{
     display: flex;

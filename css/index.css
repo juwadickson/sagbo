@@ -235,7 +235,26 @@
     color: rgba(59, 42, 246, 0.766);
 }
 
-
+.about-ft{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.about-ft div{
+    flex: 1;
+    display: flex;
+}
+.about-ft-det{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.about-ft-det span{
+    font-size: 12px;
+}
+.about-ft-det span:last-child{
+    color: blue;
+}
 .profile-pics img{
     width: 400px;
     height: 400px;
