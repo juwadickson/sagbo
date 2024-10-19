@@ -1,5 +1,5 @@
 .carousel-cont{
-    height: 400px;
+    height: 450px;
     position: relative;
 }
 
@@ -128,12 +128,25 @@
 
 .card{
     border: 1px solid #84848405 !important;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .card-body{
     padding-top: 20px !important;
+    font-size: smaller !important;
 }
-
-
+.card-body p:last-child{
+    font-weight: 600;
+}
+.card-title{
+    font-size: 18px !important;
+}
+.card-text{
+    font-size: 12px !important;
+}
 
 .slide-in-in{
     overflow-x: hidden;
@@ -151,6 +164,9 @@
     transform: translateX(0);
 }
 
+.profile-info p{
+    font-size: 12px;
+}
 .why{
     text-align: center;
     padding-top: 20px;
@@ -260,10 +276,10 @@
     height: 400px;
 }
 .profile-info{
-    width: 400px;
+    width: 380px;
     background-color: rgba(59, 42, 246, 0.766);
     position: absolute;
-    bottom: 100px;
+    bottom: 70px;
     left: 50px;
     border: 1px solid rgba(0, 0, 0, 0.023);
     border-radius: 5px;
