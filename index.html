@@ -271,11 +271,15 @@
             </div>
             
         </div>
+
+        <div class="btn-row" style="text-align: center; margin: 40px 0;">
+            <a href="/pages/courses.html" class="btn btn-danger">Course Details</a>
+        </div>
     </div>
     <div class="container slide-in-in">
         <div class="row slide-in">
             <div class="col-lg-6 col-md-6 col-sm-12 profile-pics">
-                <img src="images/four.jpg" class="img-thumbnail" alt="profile picture">
+                <img src="images/img4.png" class="img-thumbnail" alt="profile picture">
                 <div class="profile-info">
                     <h6>Monsieur Sagbo</h6>
                     <p>BSc. Art in Linguistics(University of Lome) <br>Certification on Translator(Togo)<br>Professional Diploma in Education(PDE)<br>teaching certification for IGCSE and IBDP in French</p>
@@ -309,34 +313,28 @@
                         </div>
                     </div>
                   </div>
+                  <div style="margin-top: 30px;">
+                    <a href="/pages/courses.html" class="btn btn-danger">View profile</a>
+                  </div>
             </div>
         </div>
-        <div class="row">
-            <div class="gallery">
-                <div class="item1"><img src="/images/high.webp" alt="Image 1"></div>
-                <div class="item2"><img src="https://via.placeholder.com/200x400" alt="Image 2"></div>
-                <div class="item3"><img src="https://via.placeholder.com/400x200" alt="Image 3"></div>
-                <div class="item4"><img src="images/webinar.jpg" alt="Image 4"></div>
-                <div class="item5"><img src="https://via.placeholder.com/200x300" alt="Image 5"></div>
-                <div class="item6"><img src="images/webinar.jpg" alt="Image 6"></div>
-              </div>
-        </div>
+        
         <div class="row why">
             <h3>Why Monsieur Sagbo?</h3>
             <div class="reasons">
                 <div class="reason" id="">
                     <img src="icons/graduation.png" alt="IB Diploma" width="60" height="60">
-                    <h5>Innovative Teaching Methods</h5>
+                    <h5>Innovative Teaching Methods</h5><br>
                     <p>I employ the latest educational technologies and interactive teaching methods to make learning French fun and effective. From virtual reality experiences to gamified lessons, my class keeps students motivated and excited about their progress.</p>
                 </div>
                 <div class="reason" id="">
                     <img src="icons/exam.png" alt="IGCSE" width="60" height="60">
-                    <h5>Expert Instruction</h5>
+                    <h5>Expert Instruction</h5><br>
                     <p>My French class is taught by a highly experienced and passionate teacher who has a proven track record of helping students achieve fluency. With over a decade of teaching experience and a deep understanding of language acquisition, I provide top-notch guidance and support.</p>
                 </div>
                 <div class="reason" id="">
                     <img src="iconS/elearning.png" alt="learning" width="60" height="60">
-                    <h5>Personalized Learning Paths</h5>
+                    <h5>Personalized Learning Paths</h5><br>
                     <p>Each student receives a tailored learning plan that caters to their individual needs and goals. Whether they are beginners or advanced learners, I ensure that each student progresses at their own pace with customized exercises, feedback, and support.</p>
                 </div>
             </div>
@@ -344,14 +342,20 @@
         <div class="row short-presentation">
             <div class="col-lg-6 col-sm-12">
                 <div class="video-thumbnail" id="videoThumbnail">
-                    <img src="images/youu.jpg" alt="Video Thumbnail">
+                    <img src="images/teac.jpg" alt="Video Thumbnail">
                     <div class="play-button">
                     </div>
                 </div>
                 <div class="modal" id="videoModal">
                     <div class="modal-content">
                         <span class="close" id="closeModal">&times;</span>
-                        <iframe id="youtubeVideo" src="https://www.youtube.com/embed/wtiFx1TRCq0" title="French Conversation Practice for Beginners | Easy French Lessons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <!-- <iframe id="youtubeVideo" src="https://www.youtube.com/embed/wtiFx1TRCq0" title="French Conversation Practice for Beginners | Easy French Lessons" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+                        <video controls width="600">
+                            <source id="youtubeVideo" src="/video/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                          
                     </div>
                 </div>
             </div> 
@@ -384,68 +388,7 @@
         </div>
         <script src="js/slidein.js"></script>
     </div>
-    <div class="container">
-        <div class="row" style="text-align: center; margin-top: 10px;">
-            <h6>MOST POPULAR COURSES</h6>
-            <h2>Let's Work Together To Help You Achieve Your Goals Today!</h2>
-        </div>
-        <div class="row profile-row">
-            <div class="col-lg-4 col-md-4 col-sm-1 grades">
-                <div class="card shadow p-0 mb-3 bg-body-tertiary rounded">
-                    <img src="images/ib.webp" class="card-img-top" alt="..." width="338" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">Listening</h5>
-                      <p class="card-text">Find a personalized online tutor for your IB diploma programme</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1 grades ">
-                <div class="card shadow p-0 mb-3 bg-body-tertiary rounded">
-                    <img src="images/igcse.webp" class="card-img-top" alt="..." width="338" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">Speaking</h5>
-                      <p class="card-text">Find a personalized online tutor to achieve your IGCSE test score goal</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1 grades ">
-                <div class="card shadow p-0 mb-3 bg-body-tertiary rounded">
-                    <img src="images/high.webp" class="card-img-top" alt="..." width="338" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">Vocabulary</h5>
-                      <p class="card-text">Try 1-on-1 online elementary, middle and high school tutoring for grade improvements.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1 grades">
-                <div class="card shadow p-0 mb-3 bg-body-tertiary rounded">
-                    <img src="images/ib.webp" class="card-img-top" alt="..." width="338" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">Writing</h5>
-                      <p class="card-text">Find a personalized online tutor for your IB diploma programme</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1 grades ">
-                <div class="card shadow p-0 mb-3 bg-body-tertiary rounded">
-                    <img src="images/igcse.webp" class="card-img-top" alt="..." width="338" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">IGCSE Exam prep</h5>
-                      <p class="card-text">Find a personalized online tutor to achieve your IGCSE test score goal</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-1 grades ">
-                <div class="card shadow p-0 mb-3 bg-body-tertiary rounded">
-                    <img src="images/high.webp" class="card-img-top" alt="..." width="338" height="250">
-                    <div class="card-body">
-                      <h5 class="card-title">Elementary/Middle/High School</h5>
-                      <p class="card-text">Try 1-on-1 online elementary, middle and high school tutoring for grade improvements.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="container-fluid cont-contact">
         <div class="row">
             <div class="col-lg-4 col-md-3 col-sm-6">
@@ -479,14 +422,13 @@
         <div class="wrapper">
             <div class="footer_row">
                 <p class="footer__text">© 2024  WorkFusion, Inc. All rights reserved. Intelligent Automation for Operations
-                    <span class="footer__tel">Phone:  <a href="tel: +1 646.453.7974">+1 646.453.7974</a> </span>
-                    <a href="https://www.workfusion.com/privacy-policy/" class="footer__privacy">Privacy Policy</a>
+                    <span class="footer__tel">Phone:  <a href="tel: +1 646.453.7974">+234 701 390 8797</a> </span>
+                    <a href="" class="footer__privacy">Privacy Policy</a>
                     <a href="javascript: void(0); " id="open-cookie-again" class="footer__privacy">Cookie Settings</a>
                 </p>
             </div>
             <div class="footer__socials">
                 <span class="footer__socials_span">Follow us:</span>
-                <a class="footer__social" href="https://www.linkedin.com/company/automationacademy/"><!--?xml version="1.0" encoding="UTF-8"?--> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6.2623 23H2.32787V8.37604H6.2623V23ZM4.29508 6.6903C3.0282 6.6903 2 5.64004 2 4.34515C2 3.05027 3.0282 2 4.29508 2C5.56197 2 6.59016 3.05027 6.59016 4.34515C6.59016 5.64004 5.56328 6.6903 4.29508 6.6903ZM22 23H18.0656V15.5498C18.0656 11.0722 12.8197 11.4112 12.8197 15.5498V23H8.88525V8.37604H12.8197V10.7225C14.6505 7.28457 22 7.03064 22 14.0142V23Z" fill="#FC4710"></path></svg> </a>
             </div>
         </div>
     </footer>
