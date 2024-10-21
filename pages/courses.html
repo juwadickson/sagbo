@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/header.css">
 
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/courses.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,128 +17,371 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid head">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container">
-                  <a class="navbar-brand" href="#">
-                    <img src="/images/webinar.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">Teacher Sagbo</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Courses
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">
-                                <div class="course">
-                                    <div class="course-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-                                          </svg>
-                                    </div>
-                                    <div class="course-item">
-                                        <h6>IB Program</h6>
-                                        <p>Enhance your French proficiency and cultural knowledge<br> for global success with my IB French Program.</p>
-                                    </div>
-                                </div>
-                              </a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">
-                                <div class="course">
-                                    <div class="course-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-                                          </svg>
-                                    </div>
-                                    <div class="course-item">
-                                        <h6>IGCSE Program</h6>
-                                        <p>Ace your IGCSE exams with my French Program, mastering<br> the language  and Francophone culture.</p>
-                                    </div>
-                                </div>
-                              </a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li>
-                                <a  class="dropdown-item">
-                                    <div class="course">
-                                        <div class="course-icon">
-                                            
-                                        </div>
-                                        <div class="course-item">
-                                            <h6>Courses for Kids</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                              <li><a class="dropdown-item" href="#">
-                                <div class="course">
-                                    <div class="course-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-                                          </svg>
-                                    </div>
-                                    <div class="course-item">
-                                        <h6>IGCSE Program</h6>
-                                        <p>Ace your IGCSE exams with my French Program, mastering<br> the language  and Francophone culture.</p>
-                                    </div>
-                                </div>
-                              </a></li>
-                              <li><a class="dropdown-item" href="#">
-                                <div class="course">
-                                    <div class="course-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-                                          </svg>
-                                    </div>
-                                    <div class="course-item">
-                                        <h6>IGCSE Program</h6>
-                                        <p>Ace your IGCSE exams with my French Program, mastering<br> the language  and Francophone culture.</p>
-                                    </div>
-                                </div>
-                              </a></li>
-                            </ul>
-                          </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle pages" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+  <div class="container-fluid head">
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="/images/meeting_14821346.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">  Teacher Sagbo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Courses
+                        </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="services.html">Services</a></li>
-                          <li><a class="dropdown-item" href="about.html">About</a></li>
-                          <li><a class="dropdown-item" href="courses.html">Courses</a></li>
-                          <li><a class="dropdown-item" href="resources.html">Resources</a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/icons/graduation.png" alt="IB Diploma" width="30" height="30">
+                                </div>
+                                <div class="course-item">
+                                    <h6>IB Program</h6>
+                                    <p>Enhance your French proficiency and cultural knowledge<br> for global success with my IB French Program.</p>
+                                </div>
+                            </div>
+                          </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/icons/exam.png" alt="IGCSE" width="30" height="30">
+                                </div>
+                                <div class="course-item">
+                                    <h6>IGCSE Program</h6>
+                                    <p>Ace your IGCSE exams with my French Program, mastering<br> the language  and Francophone culture.</p>
+                                </div>
+                            </div>
+                          </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/icons/training.png" alt="Training" width="30" height="30">
+                                </div>
+                                <div class="course-item">
+                                    <h6>DELF/DALF</h6>
+                                    <p>Achieve your language certification with expert guidance and <br> tailored practice for the DELF or DALF exams</p>
+                                </div>
+                            </div>
+                          </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li>
+                            <a  class="dropdown-item">
+                                <div class="course">
+                                    <div class="course-icon">
+                                        
+                                    </div>
+                                    <div class="course-item">
+                                        <h6>Specialized Services</h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/images/cooperation.png" alt="" srcset="" width="30" height="30">
+                                </div>
+                                <div class="course-item">
+                                    <h6>Business French</h6>
+                                    <p>Coaching tailored to professional needs, including <br>business correspondence, presentations, and meetings.</p>
+                                </div>
+                            </div>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/images/airplane.png" width="30" height="30" alt="" srcset="">
+                                </div>
+                                <div class="course-item">
+                                    <h6>Travel French</h6>
+                                    <p>Preparation for French-speaking destinations, covering <br> topics like transportation, accommodations, and dining.</p>
+                                </div>
+                            </div>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/images/boy.png" width="30" height="30" alt="" srcset="">
+                                </div>
+                                <div class="course-item">
+                                    <h6>French for Children</h6>
+                                    <p>Fun and engaging French lessons designed for young learners.</p>
+                                </div>
+                            </div>
+                          </a></li>
+                          <li><a class="dropdown-item" href="#">
+                            <div class="course">
+                                <div class="course-icon">
+                                    <img src="/images/couple.png" width="30" height="30" alt="" srcset="">
+                                </div>
+                                <div class="course-item">
+                                    <h6>French for seniors</h6>
+                                    <p>Customized instruction to meet the needs of older learners</p>
+                                </div>
+                            </div>
+                          </a></li>
                         </ul>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pages" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pages</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/pages/services.html">Services</a></li>
+                      <li><a class="dropdown-item" href="/pages/about.html">About</a></li>
+                      <li><a class="dropdown-item" href="/pages/courses.html">Courses</a></li>
+                      <li><a class="dropdown-item" href="/pages/resources.html">Resources</a></li>
                     </ul>
-                    <div class="d-flex">
-                        <div class="course call-us">
-                            <div class="course-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
-                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708"/>
-                                  </svg>
-                            </div>
-                            <div class="course-item call">
-                                <p style="margin-bottom: 1px;">Talk to us</p>
-                                <h6 style="margin-bottom: 0;">+23490xxxxxxx</h6>
-                            </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="course call-us">
+                        <div class="course-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zm10.762.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708"/>
+                              </svg>
                         </div>
-                        <button type="button" class="btn btn-danger">Register</button>
+                        <div class="course-item call">
+                            <p style="margin-bottom: 1px;">Talk to us</p>
+                            <h6 style="margin-bottom: 0;">+234 701 390 8797</h6>
+                        </div>
                     </div>
-                  </div>
+                    <a href="tel:+2347013908797" class="btn btn-danger">Contact</a>
                 </div>
-              </nav>
-        </div>
+              </div>
+            </div>
+          </nav>
     </div>
+</div>
+
+<div class="container courses-1">
+  <h1>Explore Courses</h1>
+</div>
+
+<div class="container courses-list">
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="courses-card" style="background-color: #0dcaf01a;">
+      <div class="course-cont">
+        <div class="course-logo">
+          <img src="/images/img1.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+        </div>
+        <div class="course-content">
+          <h5 style="margin-bottom: 20px;">Basic Grammer and Vocabulary</h5>
+          <h6 style="color: #ef5c32;">Course content</h6>
+          <ul style="font-size: 12px;">
+            <li>Sentence structure</li>
+            <li>Parts of speech (nouns, verbs, adjectives, etc.)</li>
+            <li>Tenses (present, past, future)</li>
+            <li>Vocabulary building exercises</li>
+            <li>Pronunciation practice</li>
+          </ul>
+        </div>
+      </div>
+      <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
+      <a href="mailto:">ENROLL NOW!</a>
+    </div>
+    <div class="courses-card" style="background-color:rgba(252, 228, 236, 0.51);">
+      <div class="course-cont">
+        <div class="course-logo">
+          <img src="/images/img2.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+        </div>
+        <div class="course-content">
+          <h5 style="margin-bottom: 20px;">Everyday <br>Conversations</h5>
+          <h6 style="color: #ef5c32;">Course content</h6>
+          <ul style="font-size: 12px;">
+            <li>Sentence structure</li>
+            <li>Parts of speech (nouns, verbs, adjectives, etc.)</li>
+            <li>Tenses (present, past, future)</li>
+            <li>Vocabulary building exercises</li>
+            <li>Pronunciation practice</li>
+          </ul>
+        </div>
+      </div>
+      <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
+      <a href="mailto:">ENROLL NOW!</a>
+    </div>
+    <div class="courses-card" style="background-color: rgba(205, 222, 255, 0.508);">
+      <div class="course-cont">
+        <div class="course-logo">
+          <img src="/images/img3.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+        </div>
+        <div class="course-content">
+          <h5 style="margin-bottom: 20px;">Cultural <br>Topics</h5>
+          <h6 style="color: #ef5c32;">Course content</h6>
+          <ul style="font-size: 12px;">
+            <li>Traditions</li>
+            <li>Customs</li>
+            <li>Holidays and celebrations</li>
+            <li>Famous people and places</li>
+            <li>Social etiquette</li>
+            <li>Current events</li>
+          </ul>
+        </div>
+      </div>
+      <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
+      <a href="mailto:">ENROLL NOW!</a>
+    </div>
+  </div>
+  <div class="row" style="margin-bottom: 20px;">
+    <div class="courses-card" style="background-color: #caf00d1a;">
+      <div class="course-cont">
+        <div class="course-logo">
+          <img src="/images/img4.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+        </div>
+        <div class="course-content">
+          <h5 style="margin-bottom: 20px;">Business and Professional Language</h5>
+          <h6 style="color: #ef5c32;">Course content</h6>
+          <ul style="font-size: 12px;">
+            <li>Workplace communication</li>
+            <li>Meetings and presentations</li>
+            <li>Email writing</li>
+            <li>Telephone conversations</li>
+            <li>Negotiating</li>
+            <li>Technical terminology</li>
+          </ul>
+        </div>
+      </div>
+      <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
+      <a href="mailto:">ENROLL NOW!</a>
+    </div>
+    <div class="courses-card" style="background-color:rgba(228, 248, 252, 0.51);">
+      <div class="course-cont">
+        <div class="course-logo">
+          <img src="/images/img5.png" alt="" width="70px" height="70px" style="border-radius: 50%;">
+        </div>
+        <div class="course-content">
+          <h5 style="margin-bottom: 20px;">Specific <br>Interest</h5>
+          <h6 style="color: #ef5c32;">Course content</h6>
+          <ul style="font-size: 12px;">
+            <li>Hobbies (cooking, sports, music, etc.)</li>
+            <li>Travel destinations</li>
+            <li>Current affairs</li>
+            <li>Science</li>
+            <li>Technology</li>
+            <li>Art and literature</li>
+          </ul>
+        </div>
+      </div>
+      <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
+      <a href="mailto:">ENROLL NOW!</a>
+    </div>
+    <div class="courses-card" style="background-color: rgba(255, 205, 205, 0.508);">
+      <div class="course-cont">
+        <div class="course-logo">
+          <img src="/images/igcse.webp" alt="" width="70px" height="70px" style="border-radius: 50%;">
+        </div>
+        <div class="course-content">
+          <h5 style="margin-bottom: 20px;">Exam <br>Preparation</h5>
+          <h6 style="color: #ef5c32;">Course content</h6>
+          <ul style="font-size: 12px;">
+            <li>TCF</li>
+            <li>DELF</li>
+            <li>IGCSE</li>
+            <li>IBDP</li>
+            <li>TEF</li>
+            <li>DALF</li>
+          </ul>
+        </div>
+      </div>
+      <a style="font-size: 12px; background-color: black; color: white;border: none;">Pricing and scheduling options: On demand. </a>
+      <a href="mailto:">ENROLL NOW!</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="container duration testimonials">
+  <div class="testimonial-head">
+    <h6>DURATIONS</h6>
+    <span>Sessions range for 1h to 2h per class twice or trice weekly at the learner’s availability.  </span>
+  </div>
+  
+  <div class="learning-levels">
+    <div class="level-item">
+        <img src="/images/flag_2954934.png" alt="Beginner Icon" class="level-icon">
+        <h3>Beginner Level</h3>
+        <p>3 Months</p>
+    </div>
+
+    <div class="level-item">
+        <img src="/images/coaching_4557166.png" alt="Lower Intermediate Icon" class="level-icon">
+        <h3>Lower Intermediate</h3>
+        <p>6 Months</p>
+    </div>
+
+    <div class="level-item">
+        <img src="/images/top_1462426.png" alt="Upper Intermediate Icon" class="level-icon">
+        <h3>Upper Intermediate</h3>
+        <p>9 Months</p>
+    </div>
+
+    <div class="level-item">
+        <img src="/images/autodidact_17621317.png" alt="Advanced Icon" class="level-icon">
+        <h3>Advanced Level</h3>
+        <p>12 Months</p>
+    </div>
+</div>
+</div>
+
+
+<div class="container testimonials">
+  <div class="testimonial-head">
+    <h6>TESTIMONIALS</h6>
+    <h2>Our Successful Students</h2>
+  </div>
+
+  <div class="testimonial-container">
+    <div class="testimonial-slider">
+        <div class="testimonial-item">
+            <div class="testimonial-header">
+                <img src="person1.jpg" alt="Person 1" class="testimonial-img">
+                <span class="testimonial-name">John Doe</span>
+            </div>
+            <p class="testimonial-text">John's testimonial goes here. He had a great experience!</p>
+        </div>
+
+        <div class="testimonial-item">
+            <div class="testimonial-header">
+                <img src="person2.jpg" alt="Person 2" class="testimonial-img">
+                <span class="testimonial-name">Jane Smith</span>
+            </div>
+            <p class="testimonial-text">Jane's testimonial goes here. She loved the service!</p>
+        </div>
+
+        <div class="testimonial-item">
+            <div class="testimonial-header">
+                <img src="person3.jpg" alt="Person 3" class="testimonial-img">
+                <span class="testimonial-name">Emily Clark</span>
+            </div>
+            <p class="testimonial-text">Emily's testimonial goes here. Highly recommended!</p>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-header">
+              <img src="person3.jpg" alt="Person 3" class="testimonial-img">
+              <span class="testimonial-name">Emily Clark</span>
+          </div>
+          <p class="testimonial-text">Emily's testimonial goes here. Highly recommended!</p>
+      </div>
+
+        <!-- Add more testimonials as needed -->
+        <script src="/js/testimonial.js"></script>
+    </div>
+</div>
+</div>
+
+
     <footer class="footer">
         <div class="wrapper">
             <div class="footer_row">

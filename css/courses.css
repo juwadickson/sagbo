@@ -1,0 +1,244 @@
+
+.courses-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: url("/images/bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.courses-list{
+    margin-top: 50px;
+}
+.courses-list .row{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.courses-card{
+    flex: 1;
+    padding: 30px!important;
+    line-height: 20px;
+    border-radius: 5px !important;
+}
+.courses-card:hover{
+    background-color: #ef5b3207 !important;
+}
+.courses-card a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ef5c32;
+    color: #ef5c32;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.courses-card a:hover{
+    color: white;
+    background-color: #ef5c32;
+}
+.course-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .courses-list .row{
+        flex-direction: column;
+    }
+    .courses-list{
+        margin-top: 5px;
+    }
+    .courses-1{
+        background-position: center;
+        height: 50vh;
+    }
+    
+    .course-cont{
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .courses-list .row{
+        flex-direction: column;
+    }
+    .courses-list{
+        margin-top: 5px;
+    }
+    .course-cont{
+        flex-direction: column;
+    }
+  }
+
+
+
+
+
+
+.testimonials{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.testimonial-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+}
+
+.testimonial-item {
+    flex: 1 0 33.33%; /* 3 items on large screens */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+.testimonial-text {
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 1024px) {
+    .testimonial-item {
+        flex: 1 0 50%; /* 2 items on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-item {
+        flex: 1 0 100%; /* 1 item on small screens */
+    }
+}
+
+
+
+
+
+
+
+.learning-levels {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.level-item {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.level-item:hover {
+    transform: scale(1.05);
+}
+
+.level-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.level-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.level-item p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Responsive adjustments for medium screens */
+@media (max-width: 768px) {
+    .level-item {
+        padding: 15px;
+        margin: 5px;
+    }
+    
+    .level-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .level-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .level-item p {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 480px) {
+    .level-item {
+        padding: 10px;
+        margin: 5px;
+    }
+    .learning-levels{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .level-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .level-item h3 {
+        font-size: 1.0rem;
+    }
+
+    .level-item p {
+        font-size: 0.8rem;
+    }
+}
