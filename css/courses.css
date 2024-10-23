@@ -143,6 +143,9 @@
     .testimonial-item {
         flex: 1 0 50%; /* 2 items on medium screens */
     }
+    .testimonials{
+        margin: 40px 0 40px 0;
+    }
 }
 
 @media (max-width: 768px) {
