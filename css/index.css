@@ -393,7 +393,10 @@
         font-size: 13px;
     }
     .carousel-cont{
-        height: 300px;
+        height: 400px;
+    }
+    .carousel-item img{
+        object-fit: cover;
     }
     .carousel, .carousel-cont, .carousel-inner, .carousel-item, .carousel-item img{
         border-radius: 0px;
@@ -431,6 +434,9 @@
         bottom: 0;
         left: 0;
     }
+    .profile-info-det{
+        padding: 20px !important;
+    }
     .slide-in{
         height: auto;
         margin-bottom: 20px;
@@ -438,7 +444,9 @@
     .slide-in > div{
         margin-bottom: 10px;
     }
-    
+    .slide-in-in{
+        padding: 10px !important;
+    }
     .profile-info-det ul li{
         font-size: 12px;
     }
